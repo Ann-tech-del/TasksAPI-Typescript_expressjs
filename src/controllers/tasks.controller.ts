@@ -31,7 +31,6 @@ export const getSpecificTask =async (req:Request,res:Response)=>{
 }
 
 export const createTasks = async (req:Request,res:Response)=>{ 
-console.log(req.body)
     const  {tittle, description} = req.body
     
     try{
