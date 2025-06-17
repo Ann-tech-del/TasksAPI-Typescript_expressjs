@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start:prod": "node bulid/index.js",
+    "start:prod": "node build/index.js",
     "start:dev": "nodemon src/index.ts"
   },
   "keywords": [],
